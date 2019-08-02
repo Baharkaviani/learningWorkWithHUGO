@@ -1,0 +1,28 @@
+ul.menu {
+    list-style-type: none;
+    margin: 10px 280px 10px 280px;
+    padding: 2px 0 2px 0;
+    direction: ltr;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    position:relative;
+    float: right;
+    font-size: 20px;
+    margin-left:2px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
